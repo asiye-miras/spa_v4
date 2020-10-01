@@ -1,0 +1,102 @@
+html, body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: baseline;
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(247, 139, 89);
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: rgba(192, 118, 49, 0.925);
+}
+
+.subnav-content {
+  display: none;
+  position: fixed;
+  background-color: #f06616b0;
+  min-width: 110px;
+  top: 45px;
+  box-shadow: 0px 8px 16px 0px rgba(61, 131, 236, 0.2);
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.subnav-content a:hover {
+  background-color: rgba(226, 120, 21);
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.main_img {
+  width: 0px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.sub_img {}
+
+.footer {
+  padding: 50px;
+  text-align: center;
+  background: rgba(206, 232, 253, 0.959);
+  font-size: 20px;
+  ;
+}
+
+#main_container {
+  width: 80%;
+  max-width: 1000px;
+  min-width: 350px;
+  margin: 0 auto;
+}

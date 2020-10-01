@@ -1,0 +1,16 @@
+.heading {
+   background-color: #6aa568;
+  white-space: normal;
+  border: 3px groove;
+  padding: 30px;
+  box-shadow: 5px 10px #bae2b2;
+  background-size: auto;
+} 
+.content {
+   background-color: #d5f4e6;
+  white-space: normal;
+  border: 1px solid;
+  padding: 20px;
+  box-shadow: 5px 10px #888888;
+  background-size: auto;
+}

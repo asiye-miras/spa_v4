@@ -1,0 +1,34 @@
+body {
+  background-color: lightgray;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+}
+
+/* Create three equal columns that floats next to each other */
+.button-container {
+  width: 100%;
+  height: 40px;
+}
+
+.button-container button {
+  float: left;
+  width: 33.3%;
+  height: 100%;
+}
+.red-button {background-color: rgb(186, 0, 0);} /* Blue */
+.blue-button {background-color: #008CBA;} /* Red */
+.yellow-button {background-color: rgb(236, 221, 5); } /* Gray */
+
+.main_img{
+  display: none;
+}

@@ -1,0 +1,51 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.Image-container {
+  width: 100%;
+  position: relative;
+  background-position: center;
+}
+
+.Image-container img {vertical-align: middle;}
+
+.closemark {
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  right:5px;
+  top: 5px;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: calc(100% - 20px);
+  padding-left: 20px;
+}
+
+/* Create three equal columns that floats next to each other */
+.button-container {
+  display:flex;
+  justify-content: space-between;
+}
+
+.button-container button {
+  width: 28%;
+  height: 40px;
+}
+.red-button {background-color: rgb(186, 0, 0);} /* Blue */
+.blue-button {background-color: #008CBA;} /* Red */ 
+.yellow-button {background-color: rgb(236, 221, 5); } /* Gray */ 
+
+#slide-1, #slide-2, #slide-3{
+  display: none;
+}/* Add your styles here */

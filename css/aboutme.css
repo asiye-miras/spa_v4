@@ -1,0 +1,84 @@
+.img_container {
+  position: relative;
+  text-align: center;
+  color: rgb(31, 43, 207);
+  clip: rect(px, px, px, px);
+}
+
+.top-right {
+  position: absolute;
+  top: 250px;
+  right: 40px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.icon_container {
+  background-color: #d5e5f4;
+  white-space: normal;
+  border: 1px solid;
+  padding: 20px;
+  box-shadow: 5px 10px #dfd6d6;
+  background-size: auto;
+}
+
+  
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: #4CAF50;
+}
+
+.css {
+  width: 90%;
+  background-color: #2196F3;
+}
+
+.js {
+  width: 80%;
+  background-color: #f44336;
+}
+
+.php {
+  width: 60%;
+  background-color: #808080;
+}
+
+.Languages {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.English {
+  width: 90%;
+  background-color: #4CAF50;
+}
+
+.Uyghur {
+  width: 90%;
+  background-color: #2196F3;
+}
+
+.Chiness {
+  width: 90%;
+  background-color: #f44336;
+}
+
+.Turkish {
+  width: 90%;
+  background-color: #808080;
+}
